@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart City Dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sustainable Smart City Dashboard</h1>
+            <p>Real-time data on city resources and environmental impact</p>
+        </header>
+        <main>
+            <section id="weather-air-quality">
+                <h2>Weather & Air Quality</h2>
+                <p id="weather-info">Loading weather data...</p>
+                <p id="air-quality-info">Loading air quality data...</p>
+            </section>
+            <section id="energy-usage">
+                <h2>Energy Usage <span>(Mock Data)</span></h2>
+                <p id="energy-info">Loading energy usage data...</p>
+            </section>
+            <section id="public-transportation">
+                <h2>Public Transportation <span>(Mock Data)</span></h2>
+                <p id="transportation-info">Loading transportation data...</p>
+            </section>
+            <section id="waste-management">
+                <h2>Waste Management <span>(Mock Data)</span></h2>
+                <p id="waste-info">Loading waste management data...</p>
+            </section>
+            <section id="map">
+                <h2>City Map</h2>
+                <div id="city-map"></div>
+            </section>
+        </main>
+        <footer>
+            <p>Made by <strong>Chitraksh</strong> for IITK Hackathon</p>
+            <p>
+                <a href="https://github.com/chitraksh">GitHub</a> |
+                <a href="">LinkedIn</a>
+            </p>
+        </footer>
+    </div>
+    <script src="/js/app.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</body>
+</html>

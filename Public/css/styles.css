@@ -1,0 +1,125 @@
+/* Base Styles */
+body, html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #eee;
+    background: linear-gradient(to bottom, #4caf50, #2e7d32);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+/* Main Section */
+main {
+    margin-top: 20px;
+}
+
+section {
+    padding: 15px;
+    background-color: #e8f5e9;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+section h2 span {
+    color: #888;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Map */
+#city-map {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #2e7d32;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+footer a {
+    color: #a5d6a7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons (Optional) */
+button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
