@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Smart City Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div class="loading" id="loading">Loading...</div>
+    <header class="header">
+        <div class="container">
+            <h1>Sustainable Smart City Dashboard</h1>
+            <div class="clock" id="clock"></div>
+        </div>
+    </header>
+    <main class="main-content">
+        <section id="weather-air-quality" class="card">
+            <h2>Weather & Air Quality ( Delhi ) </h2>
+            <div id="weather" class="weather-card"></div>
+            <div id="air-quality" class="aqi-card"></div>
+            <p class="source">Data fetched from OpenWeather</p>
+        </section>
+        <section id="energy-usage" class="card">
+            <h2>Energy Usage <span class="mock-data">(Mock Data)</span></h2>
+            <div class="progress-bar" id="energy-progress"></div>
+        </section>
+        <section id="public-transportation" class="card">
+            <h2>Public Transportation <span class="mock-data">(Mock Data)</span></h2>
+            <select id="transportation-type">
+                <option value="bus">Bus</option>
+                <option value="metro">Metro</option>
+            </select>
+            <div id="transportation-data"></div>
+        </section>
+        <section id="waste-management" class="card">
+            <h2>Waste Management <span class="mock-data">(Mock Data)</span></h2>
+            <div class="progress-bar" id="recycling-progress"></div>
+            <div class="progress-bar" id="waste-progress"></div>
+        </section>
+        <section id="city-map" class="card">
+            <h2>City Map</h2>
+            <div id="map-container">
+                <div id="map"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Creator <a href="https://chitraksh.vercel.app">Portfolio</a></p>
+        <p>&copy; 2024 Chitraksh Maheshwari</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
