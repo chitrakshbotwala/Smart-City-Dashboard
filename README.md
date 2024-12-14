@@ -1,6 +1,6 @@
 # **Sustainable Smart City Dashboard**
 
-An interactive, web-based dashboard for visualizing real-time urban sustainability metrics, including air quality, energy usage, public transportation, and waste management data. Built for the IITK Hackathon, this project aims to support smart city initiatives and promote sustainability.
+An interactive, web-based dashboard for visualizing real-time urban sustainability metrics, including air quality, energy usage, public transportation, and waste management data. Built for the Code Clash Championship, this project aims to support smart city initiatives and promote sustainability.
 
 ## **Features**
 - **Weather & Air Quality**: Live weather data and air quality index, using OpenWeather API.
